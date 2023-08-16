@@ -1,3 +1,4 @@
+/*hello*/
 .footerMain {
     background: var(--ruby-red, #861B48);
     display: flex;
@@ -56,3 +57,87 @@ text-decoration-line: underline;
 padding: 5px;
 padding-left: 25px;
 }
+
+.pageHeader {
+    color: #FFF;
+font-family: Alegreya;
+font-size: 75px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: var(--ruby-red, #861B48);
+padding: 10px;
+padding-left: 60px;
+}
+
+@media screen and (min-width: 1250px) {
+
+.babyNurseryHeader{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#nurseMe {
+    grid-column: 1;
+    padding: 10px;
+}
+
+#pinkyPoo {
+    grid-column: 2;
+    padding: 10px;
+}
+
+#greenPlant {
+    grid-column: 3;
+    padding: 10px;
+}
+
+#greyy {
+    grid-column: 4;
+    padding: 10px;
+}
+}
+
+@media screen and (min-width: 200){
+   .babyNurseryHeader {
+    display: flex;
+    justify-content: space-around;
+   }
+}
+
+
+
+@media screen and (min-width: 1250px) {
+
+    .kitchenProject{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+    #kitchenImage {
+        grid-column: 1;
+        padding: 10px;
+    }
+    
+    #paint4 {
+        grid-column: 2;
+        padding: 10px;
+    }
+    
+    #paint5 {
+        grid-column: 3;
+        padding: 10px;
+    }
+    
+    #paint6 {
+        grid-column: 4;
+        padding: 10px;
+    }
+    }
+    
+    @media screen and (min-width: 200){
+       .kitchenProject {
+        display: flex;
+        justify-content: space-around;
+       }
+    }
