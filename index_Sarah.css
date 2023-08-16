@@ -1,0 +1,15 @@
+.projectsbtn {
+    
+    border-color: #FA8401;
+    border-width: 10px;
+    color: var(--orange-u-glad-its-not-yellow, #FA8401);
+    font-family: Alegreya;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 295px;
+    height:295px;
+    background: #FFF;
+    border-radius: 295px;    
+    }
